@@ -1,0 +1,9 @@
+This program is a simple 3d physics simulation involving spheres and planes.
+
+It features:
+
+  - Broad Phase World Partitioning using a recursive Octree implementation
+  - Narrow Phase Collision Detection using simple sphere / object collision detection
+  - Gravity through constant acceleration
+  
+Please refer to the license
