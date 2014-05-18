@@ -6,4 +6,12 @@ It features:
   - Narrow Phase Collision Detection using simple sphere / object collision detection
   - Gravity through constant acceleration
   
+To fork this repo you will need the following libraries:
+
+Glew
+sfml 2.1
+soil
+
+The libraries must be in the same directory as the repo in order to run correctly.
+  
 Please refer to the license
