@@ -1,0 +1,66 @@
+﻿Build started 14/03/2014 01:42:35.
+     1>Project "D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\GamingSim Entities.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\GamingSim Entities.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\GamingSim Entities.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Matrix4.cpp Mesh.cpp MeshManager.cpp RenderObject.cpp Shader.cpp ShaderManager.cpp Singleton.cpp Sphere.cpp Main.cpp Octree.cpp SRenderer.cpp TextureManager.cpp Vector3.cpp Verlet.cpp
+         Matrix4.cpp
+         Mesh.cpp
+         MeshManager.cpp
+     1>MeshManager.cpp(61): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>MeshManager.cpp(72): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>MeshManager.cpp(78): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>MeshManager.cpp(82): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>MeshManager.cpp(86): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+     1>MeshManager.cpp(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(253) : see declaration of 'fscanf'
+         RenderObject.cpp
+         Shader.cpp
+         ShaderManager.cpp
+         Singleton.cpp
+         Sphere.cpp
+         Main.cpp
+         Octree.cpp
+         SRenderer.cpp
+         TextureManager.cpp
+         Vector3.cpp
+         Verlet.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\GamingSim Entities.exe" /INCREMENTAL:NO /NOLOGO SOIL.lib glew32.lib opengl32.lib "sfml-audio.lib" "sfml-graphics.lib" "sfml-main.lib" "sfml-system.lib" "sfml-window.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\GamingSim Entities.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\GamingSim Entities.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\GamingSim Entities.lib" /MACHINE:X86 Release\Matrix4.obj
+         Release\Mesh.obj
+         Release\MeshManager.obj
+         Release\RenderObject.obj
+         Release\Shader.obj
+         Release\ShaderManager.obj
+         Release\Singleton.obj
+         Release\Sphere.obj
+         Release\Main.obj
+         Release\Octree.obj
+         Release\SRenderer.obj
+         Release\TextureManager.obj
+         Release\Vector3.obj
+         Release\Verlet.obj
+         Generating code
+         Finished generating code
+     1>SOIL.lib(SOIL.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4204: 'D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         GamingSim Entities.vcxproj -> D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\GamingSim Entities.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\Release\GamingSim Entities.exe;#1" /manifest "Release\GamingSim Entities.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\GamingSim Entities.unsuccessfulbuild".
+         Touching "Release\GamingSim Entities.lastbuildstate".
+     1>Done Building Project "D:\Documents\DropBox\Dropbox\University Work\Year 3\CSC3222 Gaming Simulations\GamingSim Entities\GamingSim Entities\GamingSim Entities.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.36
