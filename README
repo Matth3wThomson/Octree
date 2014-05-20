@@ -5,7 +5,13 @@ It features:
   - Broad Phase World Partitioning using a recursive Octree implementation
   - Narrow Phase Collision Detection using simple sphere / object collision detection
   - Gravity through constant acceleration
+
+
+It requires:
+
+  OpenGL 3.3+
   
+
 To fork this repo you will need the following libraries:
 
 Glew
